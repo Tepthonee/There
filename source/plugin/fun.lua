@@ -657,7 +657,7 @@ Abs = math.random(2,140);
 local Text ='*✯‍︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'قناه السورس',url='https://t.me/SOURCEVEGA'}},
+{{text = 'قناه السورس',url='https://t.me/CCYFC'}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1293,7 +1293,7 @@ Abs = math.random(2,140);
 local Text ='*✭ تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='https://t.me/SOURCEVEGA'}},
+{{text = '- قناه السورس .',url='https://t.me/CCYFC'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = msg.id/2097152/0.5
@@ -1430,7 +1430,7 @@ Abs = math.random(3,205);
 local Text ='*✭ تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- قناه السورس .',url='https://t.me/SOURCEVEGA'}},
+{{text = '- قناه السورس .',url='https://t.me/CCYFC'}},
 }
 local MsgId = msg.id/2097152/0.5
 local MSGID = 0
@@ -1445,7 +1445,7 @@ local json = JSON.decode(url)
 if url == "null" or #json <= 1 then
 return send(msg.chat_id,msg.id,'✭ لم استطيع العثور علي نتيجه في google play ')
 end
-local datar = {data = {{text = "قناه السورس" , url = 'https://t.me/SOURCEVEGA'}}}
+local datar = {data = {{text = "قناه السورس" , url = 'https://t.me/CCYFC'}}}
 if #json < 5 then
 for i = 1,#json do
 title = json[i].title
